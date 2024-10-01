@@ -5,6 +5,7 @@ import { Toaster, toast } from 'react-hot-toast';
 import { generateSudoku } from 'sudoku-puzzle'; // Import the sudoku-puzzle package
 
 function App() {
+  
   // Initialize a 9x9 grid with empty strings
   const array2D = [];
   for (let i = 0; i < 9; i++) {
